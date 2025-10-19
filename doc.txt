@@ -1,0 +1,9 @@
+1=> Criar um site simples usando HTML, CSS, sem usar JS (por enqunato) 
+        a=> Montar o html e css, depois penso no JS.
+
+2=> Me ajude a pleanejar o passo a passo de desenvolvimento, ñ precisa gerar o código por enquanto, apenas me ajude a planejar o desenvolvimento.
+
+3=> É um site de e-commerce de sapatos, vou fazer primeiro a página inicial, nessa página vamos ter as seguintes seções:
+        b=> Menu -Painel -Destaque -Grid -Rodapé.
+
+4=> 
