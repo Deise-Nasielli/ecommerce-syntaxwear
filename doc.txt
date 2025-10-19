@@ -6,4 +6,81 @@
 3=> É um site de e-commerce de sapatos, vou fazer primeiro a página inicial, nessa página vamos ter as seguintes seções:
         b=> Menu -Painel -Destaque -Grid -Rodapé.
 
-4=> 
+4=> HTML5 semantico -> ajuda os motores buscas e o seo (meta tags guide) - acessibilidade.
+Tags Semânticas
+                Essenciais para organizar o layout e melhorar a acessibilidade:
+                        <header>: cabeçalho da página ou seção (logo, menu, busca).
+                        <nav>: área de navegação (menu principal, categorias).
+                        <main>: conteúdo principal da página.
+                        <section>: divide o conteúdo em blocos temáticos (ex: produtos, promoções).
+                        <article>: usado para conteúdo independente (ex: descrição de produto).
+                        <aside>: conteúdo complementar (ex: filtros, banners). 
+                        <footer>: rodapé (informações de contato, links úteis, redes sociais).
+
+                                🛒 Tags para Conteúdo
+                                        Essas exibem os dados e interações:
+                                                <h1> a <h6>: títulos e subtítulos.
+                                                <p>: parágrafos.
+                                                <img>: imagens dos produtos.
+                                                <a>: links (ex: “ver mais”, “comprar”).
+                                                <ul>, <ol>, <li>: listas (ex: características do produto).
+                                                <form>: formulário de cadastro, login ou pagamento.
+                                                <input>, <label>, <select>, <textarea>, <button>: elementos do formulário.
+                                                        💡 Extras úteis
+                                                        <div>: contêiner genérico para agrupar elementos.
+                                                        <span>: usado para estilizar partes específicas de texto.
+                                                        <script>: para incluir JavaScript (ex: carrinho de compras)
+                                                        <link>: para conectar arquivos CSS.
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loja SyntaxWear</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>SyntaxWear</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Produtos</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="banner">
+      <h2>Nova coleção de outono 🍂</h2>
+      <p>Confira os lançamentos com até 30% de desconto!</p>
+    </section>
+
+    <section id="produtos">
+      <h2>Produtos em destaque</h2>
+      <article class="produto">
+        <img src="tenis1.jpg" alt="Tênis modelo X">
+        <h3>Tênis Modelo X</h3>
+        <p>R$ 299,90</p>
+        <button>Comprar</button>
+      </article>
+      <!-- Repetir <article> para outros produtos -->
+    </section>
+  </main>
+
+  <aside>
+    <h3>Filtrar por categoria</h3>
+    <ul>
+      <li><a href="#">Masculino</a></li>
+      <li><a href="#">Feminino</a></li>
+      <li><a href="#">Infantil</a></li>
+    </ul>
+  </aside>
+
+  <footer>
+    <p>&copy; 2025 SyntaxWear. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
