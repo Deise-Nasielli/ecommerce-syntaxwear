@@ -1,0 +1,48 @@
+/*Product-category.css*/
+
+.categories-section{
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.category-card{
+    position: relative; /*para posicionar o overlay dentro do card */
+    width: 317px;
+    height: 500px;
+    border-radius: 15px;
+     overflow: hidden; /*corta tdo conteúdo que ultrapassar o tamanho do elemento    */
+}
+.overlay{
+    position: absolute;
+    inset: 0; /*top:0; right:0; bottom:0; left:0; um atalho para essa propriedade*/
+    background-color: rgba(0, 0, 0, 0.25); /*cor preta com opacidade de 20% */
+    z-index: 1; /*garante que o overlay fique acima da imagem de fundo */
+}
+
+.category-name{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2; /*garante que o nome da categoria fique acima do overlay */
+    text-align: center;
+}
+.casual{
+    background: url(../../imgs/products/casual.jpg) no-repeat center;
+    background-size: cover;
+}
+.esporte{
+    background: url(../../imgs/products/exportivo.jpg) no-repeat center;
+    background-size: cover;
+}
+.moderno{
+    background: url(../../imgs/products/colorido.jpg) no-repeat center;
+    background-size: cover;
+}
+.futurista{
+    background: url(../../imgs/products/futurista.jpg) no-repeat center;
+    background-size: cover;
+}  

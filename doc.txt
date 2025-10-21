@@ -84,3 +84,21 @@ Tags Semânticas
   </footer>
 </body>
 </html>
+
+--------------OVERLAY------------- 
+É uma sobreposição, lou seja uma técnica q muda a cor de alguma coisa podendo usar opacidade ou não.
+      Usado para dar mais leitura nos links e ser mais facil de o usuãrio ver.
+          No site o overlay deve ficar porcima da img e por baixo do link(p/ q o link continue sendo clicavel)
+Uma das formas de fazer é usando posicionamento relative e absolute.
+position-relative (aplicado no pai [Define o contexto dos relacionamento dos filhos - define q o position-absolute seja posicionamento em relação ao contêiner] )
+position-absolute (aplicado no filho [no overlay])
+SEMPRE QUE PRECISAR USAR O -position-absolute- O PAI DELE TEM Q TER O -position-relative-
+
+----------------overflow: hidden;-----
+CORTA TUDO QUE VAZER FORA DO contêiner
+
+
+-----------POSICIONAMENTO NO CENTRO PERFEITO------
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
