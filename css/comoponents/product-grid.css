@@ -1,0 +1,67 @@
+
+.highlight{
+    grid-area: highlight;
+    background: url(../../imgs/products/modelo-masculino.jpg);
+}
+.sneaker-purple{
+    grid-area: sneaker-purple;
+    background: url(../../imgs/products/tênis-roxo-verde.jpg);
+}
+.sneaker-color{
+    grid-area: sneaker-color;
+    background:url(../../imgs/products/ztênis-preto-azul.jpg);
+}
+.model{
+    grid-area: moldel;
+    background:url(../../imgs/products/modelo-feminino.jpg);
+}
+.sneaker-white{
+    grid-area: sneaker-white;
+    background:url(../../imgs/products/colorido.jpg)
+}
+.sneaker-silver{
+    grid-area: sneaker-silver;
+    background:url(../../imgs/products/tênis-prata.jpg)
+}
+.card{
+    background-color: aqua;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    position: relative;
+}
+.products-grid-scection{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3,300px);
+    grid-template-areas:
+        "highlight highlight sneaker-purple sneaker-purple"
+        "highlight highlight moldel sneaker-color"
+        "sneaker-white sneaker-white moldel sneaker-silver";
+    gap: 30px;
+}
+.top1-content{
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-align: center;
+}
+.card-title{
+    color: #ededed;
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.card-subtitle{
+    color: #ededed;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.cta-group{
+    display: flex;
+    gap: 10px;
+}
