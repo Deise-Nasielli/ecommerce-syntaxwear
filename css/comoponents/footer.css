@@ -57,3 +57,28 @@
     padding: 1.25rem 0;
     font-size: 1.25rem;
 }
+@media (max-width:1000px) {
+    .footer-content{
+        flex-direction: column;
+        gap: 2rem;
+        padding: 2rem 1rem;
+    }
+    .redes-sociais nav{
+        gap: 1rem;
+    }
+    .menu-footer{
+        flex-direction: column;
+        padding: 1.5rem 0 1.5rem;
+        
+    }
+    .categorias ul{
+      padding: 0;
+    }
+    .copyright{
+        font-size: 1rem;
+        padding: 1.5rem 0 1.5rem;
+        
+    }
+    
+    
+}
