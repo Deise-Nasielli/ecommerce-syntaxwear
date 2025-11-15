@@ -4,13 +4,13 @@
     top: 60px;
     left: 50%;
     transform: translateX(-50%);
-    width: calc(100% - 210px);
+    width: 1260px;
     border-radius: 15px;
     z-index: 999;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.225rem 1.25rem;
+    padding: 0.1rem 1.25rem;
     background-color: #ffffff;
 }
 .logo img{
@@ -40,9 +40,11 @@
 }
 .nav-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
     align-items: center;
+    flex: 1;
+    margin-left: 10rem;
 }
 .menu-toggle{
     display: none;
@@ -62,7 +64,7 @@
 .menu-icon:hover img{
     opacity: 0.7;
 }
-@media (max-width: 1280px) {
+@media (max-width: 1020px) {
     .header{
         width: calc(100% - 40px);
     }
