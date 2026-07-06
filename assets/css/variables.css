@@ -3,5 +3,13 @@
 
 :root{
     --fonte-principal: 'Goldman', sans-serif;
+    --fonte-secundaria: 'Oxanium', sans-serif;
+    --fonte-terciaria: 'Space Grotesk', sans-serif;
+   
+    /* cor da fonte */
+    --cor-principal:#f5f5f5;
 
+
+    /* background */
+    --cor-fundo: #040304;
 }
