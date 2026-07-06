@@ -8,8 +8,10 @@
    
     /* cor da fonte */
     --cor-principal:#f5f5f5;
+    --cor-style: #7c3aed;
 
 
     /* background */
     --cor-fundo: #040304;
+    --cor-nav: #141414;
 }
