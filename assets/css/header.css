@@ -2,10 +2,10 @@
 .header{
     background-color: var(--cor-nav);
     position: fixed;
-    top:20px;
+    top:60px;
     left: 50%;
     transform: translateX(-50%);
-    width: 1360px;
+    width: calc(100% - 180px);
     border-radius: 15px;
     z-index: 999;
     display: flex;
