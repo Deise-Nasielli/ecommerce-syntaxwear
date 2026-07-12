@@ -10,8 +10,9 @@
     <link rel="stylesheet" href="assets/css/base.css" />
     <link rel="stylesheet" href="assets/css/header.css" />
     <link rel="stylesheet" href="assets/css/hero.css" />
-    <link rel="stylesheet" href="assets/css/product-category.css"/>
-    <link rel="stylesheet" href="assets/css/featured-products.css"/>
+    <link rel="stylesheet" href="assets/css/product-category.css" />
+    <link rel="stylesheet" href="assets/css/footer.css" />
+    <link rel="stylesheet" href="assets/css/featured-products.css" />
   </head>
 
   <body>
@@ -38,21 +39,27 @@
           <li class="nav-item"><a href="#">Sobre</a></li>
           <li class="nav-item">
             <a href="#" aria-label="Minha Conta">
-              <img src="./assets/images/icons/user.svg" alt="Minha Conta"
-            /></a>
+              <img
+                src="./assets/images/icons/user.svg"
+                alt="Minha Conta"
+              />
+            </a>
           </li>
           <li class="nav-item">
             <a href="#" aria-label="Ajuda">
-              <img src="./assets/images/icons/help.svg" alt="Ajuda"
-            /></a>
+              <img
+                src="./assets/images/icons/help.svg"
+                alt="Ajuda"
+              />
+            </a>
           </li>
-
           <li class="nav-item">
             <a href="#" aria-label="Carrinho de Compras">
               <img
                 src="./assets/images/icons/bag.svg"
                 alt="Carrinho de Compras"
-            /></a>
+              />
+            </a>
           </li>
         </ul>
       </nav>
@@ -75,39 +82,39 @@
 
       <section class="categories-section">
         <!-- seção categorias de tênis -->
-         
-          <div class="category-card casual">
-            <a href="#" class="category-links">
-              <span class="overlay"></span>
-              <span class="category-name btn btn-outline">Casual</span>
-            </a>
-          </div>
 
-          <div class="category-card esporte">
-            <a href="#" class="category-links">
-              <span class="overlay"></span>
-              <span class="category-name btn btn-outline">Esporte</span>
-            </a>
-          </div>
-          <div class="category-card moderno">
-            <a href="#" class="category-links">
-              <span class="overlay"></span>
-              <span class="category-name btn btn-outline">Moderno</span>
-            </a>
-          </div>
+        <div class="category-card casual">
+          <a href="#" class="category-links">
+            <span class="overlay"></span>
+            <span class="category-name btn btn-outline">Casual</span>
+          </a>
+        </div>
 
-          <div class="category-card futurista">
-            <a href="#" class="category-links">
-              <span class="overlay"></span>
-              <span class="category-name btn btn-outline ">Futurista</span>
-            </a>
-          </div>
-    
-         
+        <div class="category-card esporte">
+          <a href="#" class="category-links">
+            <span class="overlay"></span>
+            <span class="category-name btn btn-outline">Esporte</span>
+          </a>
+        </div>
+
+        <div class="category-card moderno">
+          <a href="#" class="category-links">
+            <span class="overlay"></span>
+            <span class="category-name btn btn-outline">Moderno</span>
+          </a>
+        </div>
+
+        <div class="category-card futurista">
+          <a href="#" class="category-links">
+            <span class="overlay"></span>
+            <span class="category-name btn btn-outline">Futurista</span>
+          </a>
+        </div>
       </section>
+
       <section class="featured-products">
         <!-- seção produtos em destaque -->
-         <div class="card modeloM">
+        <div class="card modeloM">
           <div class="modeloM-content">
             <h3 class="card-title">Kryton One</h3>
             <p class="card-subtitle">Explore os modelos mais recentes.</p>
@@ -117,16 +124,102 @@
             </div>
           </div>
         </div>
-         <div class="card modeloF"></div>
-         <div class="card card1"></div>
-         <div class="card card2"></div>
-         <div class="card card3"></div>
-         <div class="card card4"></div>
+        <div class="card modeloF"></div>
+        <div class="card card1"></div>
+        <div class="card card2"></div>
+        <div class="card card3"></div>
+        <div class="card card4"></div>
       </section>
     </main>
 
     <footer class="site-footer">
       <!-- Informações de contato, links para redes sociais e direitos autorais. -->
+      <div class="footer-content">
+        <div class="footer-right">
+          <form class="newsletter-form">
+            <label for="newletter-email">Increva-se em nosso e-mail</label>
+            <input
+              type="email"
+              id="newletter-email"
+              placeholder="email@email.com"
+            />
+          </form>
+          <div class="footer-social">
+            <span>Redes Sociais</span>
+            <ul>
+              <li>
+                <a href="#">
+                  <img
+                    src="./assets/images/icons/instagram.svg"
+                    alt="Instagram"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./assets/images/icons/whats.svg" alt="WhatsApp" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./assets/images/icons/tiktok.svg" alt="TikTok" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./assets/images/icons/facebook.svg" alt="Facebook" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <nav class="footer-nav" id="footer">
+          <ul>
+            <li class="footer-item">
+              <strong>Masculino</strong>
+              <ul>
+                <li><a href="#">Casual</a></li>
+                <li><a href="#">Esporte</a></li>
+                <li><a href="#">Moderno</a></li>
+                <li><a href="#">Futurista</a></li>
+              </ul>
+            </li>
+            <li class="footer-item">
+              <strong>Feminino</strong>
+              <ul>
+                <li><a href="#">Casual</a></li>
+                <li><a href="#">Esporte</a></li>
+                <li><a href="#">Moderno</a></li>
+                <li><a href="#">Futurista</a></li>
+              </ul>
+            </li>
+            <li class="footer-item">
+              <strong>Outlet</strong>
+              <ul>
+                <li><a href="#">Masculino</a></li>
+                <li><a href="#">Feminino</a></li>
+              </ul>
+            </li>
+            <li class="footer-item">
+              <strong>Nossas Lojas</strong>
+              <ul>
+                <li><a href="#">Loja Física</a></li>
+                <li><a href="#">Loja Online</a></li>
+              </ul>
+            </li>
+            <li class="footer-item">
+              <strong>Sobre</strong>
+              <ul>
+                <li><a href="#">Quem Somos</a></li>
+                <li><a href="#">Missão</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <hr />
+      <div class="footer-copy" id="footer">Copyright. All Rights Reserved</div>
     </footer>
   </body>
 </html>
