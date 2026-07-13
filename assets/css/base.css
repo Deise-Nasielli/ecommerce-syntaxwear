@@ -9,6 +9,11 @@ main{
     max-width: 1360px;
     margin: 0 auto;
 }
+@media (max-width:1280px) {
+    main{
+        padding: 0.625rem;
+    }
+}
 p{
     font-family: var(--fonte-secundaria);
 }

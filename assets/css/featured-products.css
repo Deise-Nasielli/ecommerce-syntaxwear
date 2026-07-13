@@ -59,3 +59,26 @@
     display: flex;
     gap: 10px;
 }
+@media (max-width:768px){
+    .featured-products{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(5, auto);
+        grid-template-areas: 
+        "modeloM modeloM"
+        "card3 card3"
+        "modeloF card2"
+        "modeloF card4"
+        "card1 card1";
+        max-width: 100%;
+        gap: 0.625;
+    }
+    .modeloM{
+        min-height: 500px;
+    }
+    .card1, .card2, .card3, .card4{
+        min-height: 190px;
+    }
+    .modeloF{
+        min-height: 190px;
+    }
+}
